@@ -1,10 +1,6 @@
 import React, { Component } from 'react';
 
 export default class Form extends Component {
-    constructor() {
-        super();
-
-    }
 
     componentDidMount() {
         this.$name = document.querySelector('#name');
@@ -47,7 +43,7 @@ export default class Form extends Component {
                         <input type="text" id="image" name="image" className="form-control" placeholder="Image"></input>
                     </div>
   
-                    <button id="create" type="button"  onClick={this.getNewUser.bind(this)}>CREATE NEW USER</button>
+                    <button id="create" type="button"  onClick={this.getNewUser.bind(this)}>CREATE NEW PROFILE</button>
                 </form>
             </div>
         )
